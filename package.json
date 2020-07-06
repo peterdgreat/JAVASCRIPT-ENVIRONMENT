@@ -1,0 +1,51 @@
+{
+  "name": "BUILDING-JAVASCRIPT-ENVIRONMENT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "chalk": "^4.1.0",
+    "cross-env": "^7.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-watch": "^7.0.0",
+    "express": "^4.17.1",
+    "jsdom": "^16.2.2",
+    "localtunnel": "^2.0.0",
+    "mocha": "^8.0.1",
+    "mongodb": "*",
+    "nock": "^13.0.2",
+    "numeral": "^2.0.6",
+    "open": "^7.0.4",
+    "rimraf": "^3.0.2",
+    "webpack": "^4.43.0",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-md5-hash": "0.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart":"babel-node buildScripts/startMessage.js",
+    "start":"babel-node buildScripts/srcServer.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterdgreat/BUILDING-JAVASCRIPT-ENVIRONMENT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterdgreat/BUILDING-JAVASCRIPT-ENVIRONMENT/issues"
+  },
+  "homepage": "https://github.com/peterdgreat/BUILDING-JAVASCRIPT-ENVIRONMENT#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0"
+  }
+}
